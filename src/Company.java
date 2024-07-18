@@ -2,9 +2,9 @@ public class Company {
     public Employee[] employees;
     public int numberOfEmployees;
 
-    public Company(int MaxNumberOfEmployees) {
-        employees = new Employee[MaxNumberOfEmployees];
-        numberOfEmployees = 0;
+    public Company(int numberOfEmployees) {
+        employees = new Employee[numberOfEmployees];
+
     }
 
     public void addEmployee(Employee employee) {
